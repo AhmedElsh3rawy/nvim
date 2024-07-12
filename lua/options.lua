@@ -9,3 +9,4 @@ vim.opt.softtabstop = 2           -- Number of spaces a tab displays as
 vim.opt.fillchars = { eob = " " } -- Remove the ~ line
 -- Copy to system clipboard
 vim.opt.clipboard = "unnamedplus"
+vim.o.signcolumn = "no" -- Remove the W char beside the line number
