@@ -6,6 +6,16 @@ return {
     "nvim-tree/nvim-web-devicons",
   },
   config = function()
-    require("nvim-tree").setup {}
+    require("nvim-tree").setup({
+      git = {
+        unstaged = "✗",
+        staged = "✓",
+        unmerged = "",
+        renamed = "➜",
+        untracked = "★",
+        deleted = "",
+        ignored = "◌",
+      },
+    })
   end,
-  }
+}
