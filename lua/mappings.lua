@@ -1,7 +1,7 @@
 local builtin = require("telescope.builtin")
 local K = vim.keymap
 K.set("n", "<leader>ff", builtin.find_files, { desc = "Find file" })
-K.set("n", "<leader>fg", builtin.live_grep, {})
+K.set("n", "<leader>fw", builtin.live_grep, {})
 K.set("n", "<leader>fb", builtin.buffers, {})
 K.set("n", "<leader>fh", builtin.help_tags, {})
 K.set("n", "<leader>e", ":NvimTreeToggle<CR>", {})
