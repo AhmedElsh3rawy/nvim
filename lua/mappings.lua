@@ -9,10 +9,10 @@ K.set("i", "jn", "<Esc>", {})
 -- Make neovim transparant
 K.set("n", "<leader>T", ":lua TransColor()<CR>", {})
 -- Navigate vim panes better
-K.set("n", "<c-k>", ":wincmd k<CR>")
-K.set("n", "<c-j>", ":wincmd j<CR>")
-K.set("n", "<c-h>", ":wincmd h<CR>")
-K.set("n", "<c-l>", ":wincmd l<CR>")
+-- K.set("n", "<S-k>", ":wincmd k<CR>")
+-- K.set("n", "<S-j>", ":wincmd j<CR>")
+-- K.set("n", "<S-h>", ":wincmd h<CR>")
+-- K.set("n", "<S-l>", ":wincmd l<CR>")
 -- Navigate buffers
 K.set("n", "<Tab>", "<CMD>BufferLineCycleWindowlessNext<CR>", { noremap = true, silent = true })
 K.set("n", "<S-Tab>", "<CMD>BufferLineCycleWindowlessPrev<CR>", { noremap = true, silent = true })
