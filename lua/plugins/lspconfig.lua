@@ -26,7 +26,8 @@ return {
 			bufmap("<leader>D", vim.lsp.buf.type_definition)
 		end
 
-		local servers = { "bashls", "lua_ls", "gopls", "pyright", "clangd", "nil_ls" }
+		local servers =
+			{ "bashls", "lua_ls", "gopls", "pyright", "clangd", "nil_ls", "tsserver", "eslint", "tailwindcss" }
 
 		-- lspconfig.rust_analyzer.setup({
 		--   on_attach = on_attach,
